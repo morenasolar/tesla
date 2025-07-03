@@ -1,0 +1,74 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Tesla Ceara – CNPJ 34.387.123/0001‑49</title>
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --primary: #1e3a8a;
+      --text: #111827;
+      --card: #ffffff;
+      --radius: 8px;
+      --shadow: rgba(0,0,0,0.1);
+    }
+    body { margin:0; font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text);}
+    header { background: var(--primary); color:#fff; text-align:center; padding:2rem;}
+    .container { max-width:800px; margin:auto; padding:1rem;}
+    .card { background:var(--card); padding:1.5rem; margin:1rem 0; border-radius:var(--radius); box-shadow:0 4px 12px var(--shadow);}
+    .buttons { display:flex; flex-wrap:wrap; justify-content:center; gap:.75rem; margin-bottom:1rem;}
+    .buttons button { background:var(--primary); color:#fff; border:none; padding:.75rem 1.5rem; border-radius:var(--radius); cursor:pointer; transition:background .2s;}
+    .buttons button:hover { background:#1e40af;}
+    ul { margin:0; padding-left:1.25rem;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tesla Ceara LTDA</h1>
+    <p>CNPJ: <strong>34.387.123/0001‑49</strong></p>
+  </header>
+  <div class="container">
+    <div class="buttons">
+      <button onclick="window.scrollTo(0,0)">📌 Serviços</button>
+      <button onclick="window.scrollTo(0, document.body.scrollHeight)">📍 Localização</button>
+      <button onclick="window.scrollTo(0,0)">ℹ️ Info</button>
+      <button onclick="window.scrollTo(0,0)">☎ Contato</button>
+    </div>
+
+    <div class="card" id="servicos">
+      <h2>Serviços e Atividades</h2>
+      <ul>
+        <li>Instalação e manutenção elétrica (CNAE 43.21‑5‑00)</li>
+        <li>Serviços de engenharia (CNAE 71.12‑0‑00)</li>
+        <li>Promoção de vendas (CNAE 73.19‑0‑02)</li>
+        <li>Intermediação de serviços (CNAE 74.90‑1‑04)</li>
+        <li>Teleatendimento (CNAE 82.20‑2‑00)</li>
+        <li>Manutenção de geradores, transformadores (CNAE 33.13‑9‑01)</li>
+        <li>Construção de redes de energia elétrica (CNAE 42.21‑9‑02)</li>
+      </ul>
+      <p><strong>Capital Social:</strong> R$ 100.000,00 • <strong>Regime:</strong> Simples Nacional desde 01/01/2024</p>
+    </div>
+
+    <div class="card" id="info">
+      <h2>Informações Gerais</h2>
+      <p><strong>Razão Social:</strong> Tesla Ceara LTDA</p>
+      <p><strong>Natureza Jurídica:</strong> Sociedade Empresária Limitada (ME)</p>
+      <p><strong>Data de Abertura:</strong> 31/07/2019 • <strong>Situação:</strong> Ativa</p>
+      <p><strong>Porte:</strong> Microempresa (Simples Nacional)</p>
+      <p><strong>Sócio‑Administrador:</strong> Dirceu Tairo de Alencar Lima</p>
+    </div>
+
+    <div class="card" id="contato">
+      <h2>Contato</h2>
+      <p><strong>Telefone / WhatsApp:</strong> (85) 98217‑3001</p>
+      <p><strong>E‑mail:</strong> dirceu.tairo@gmail.com</p>
+    </div>
+
+    <div class="card" id="localizacao">
+      <h2>Localização</h2>
+      <p>Avenida Engenheiro Humberto Monte, 2929, Sala 502 As – Pici, Fortaleza – CE, CEP 60440‑593</p>
+      <p><a href="https://www.google.com/maps/search/?api=1&query=Avenida+Engenheiro+Humberto+Monte+2929+Fortaleza" target="_blank">Ver no Google Maps</a></p>
+    </div>
+  </div>
+</body>
+</html>
